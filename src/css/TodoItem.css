@@ -1,0 +1,35 @@
+.itemContainer {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.itemText {
+  width: 30%;
+  height: 30px;
+  color: black;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  padding-left: 5px;
+}
+
+.itemButton {
+  height: 30px;
+  color: white;
+  font-weight: 600;
+  width: 60px;
+}
+.editButton {
+  background-color: orange;
+}
+.UpdateButton {
+  background-color: rgb(13, 174, 13);
+}
+.deleteButton {
+  background-color: red;
+}
+.underline {
+  text-decoration: line-through;
+}

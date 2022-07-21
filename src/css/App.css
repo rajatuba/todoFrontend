@@ -1,0 +1,45 @@
+.container {
+  background: linear-gradient(to bottom right, #0b98e7, #6dc7cc);
+  color: white;
+  min-height: 90vh;
+}
+.heading {
+  text-align: center;
+  font-size: 48px;
+  margin-top: 0;
+}
+.addHeading {
+  text-align: center;
+  font-size: 28px;
+}
+.addInput {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.addInput input[type="text"] {
+  height: 18px;
+  min-width: 200px;
+  margin-right: 5px;
+}
+.addButton {
+  background-color: rgb(9, 184, 9);
+  border: 1px solid black;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.searchSection {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.searchSection input[type="text"] {
+  margin-left: 10px;
+}
+.todoListHeading {
+  margin-top: 40px;
+  font-size: 28px;
+  font-weight: 600;
+  text-align: center;
+}
